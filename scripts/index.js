@@ -9,12 +9,7 @@ var newsBulletin = {
   fetchNews: function(country, category) {
     $.ajax({
       url:
-        "https://newsapi.org/v2/top-headlines?country=" +
-        country +
-        "&category=" +
-        category +
-        "&apiKey=" +
-        this.apiKey,
+        "https://saurav.tech/NewsAPI/top-headlines/category/health/in.json",
       crossDomain: true,
       type: "GET",
       dataType: "json",
